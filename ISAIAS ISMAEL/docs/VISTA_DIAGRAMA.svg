@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#f8f9fa" />
+  <text x="40" y="40" font-family="Arial" font-size="20" font-weight="bold">1. DIAGRAMA ENTIDAD-RELACIÓN</text>
+  
+  <rect x="100" y="100" width="120" height="60" fill="#dae8fc" stroke="#6c8ebf" rx="5"/>
+  <text x="160" y="135" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">MIEMBRO</text>
+  
+  <ellipse cx="60" cy="80" rx="40" ry="20" fill="white" stroke="black"/>
+  <text x="60" y="85" font-family="Arial" font-size="12" text-anchor="middle">Cédula</text>
+  <line x1="100" y1="130" x2="60" y2="100" stroke="black" />
+  
+  <path d="M 300 130 L 360 80 L 420 130 L 360 180 Z" fill="#fff2cc" stroke="#d6b656" />
+  <text x="360" y="135" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle">INSCRIBIR</text>
+  
+  <rect x="500" y="100" width="120" height="60" fill="#f8cecc" stroke="#b85450" rx="5"/>
+  <text x="560" y="135" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">CLASE</text>
+  
+  <text x="40" y="300" font-family="Arial" font-size="20" font-weight="bold">2. MODELO RELACIONAL (NORMALIZADO)</text>
+  <rect x="80" y="350" width="180" height="100" fill="#dae8fc" stroke="#6c8ebf"/>
+  <text x="170" y="375" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Miembros</text>
+  
+  <rect x="280" y="480" width="200" height="100" fill="#fff2cc" stroke="#d6b656"/>
+  <text x="380" y="505" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Inscripciones</text>
+  
+  <rect x="500" y="350" width="180" height="100" fill="#f8cecc" stroke="#b85450"/>
+  <text x="590" y="375" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">Clases</text>
+</svg>
